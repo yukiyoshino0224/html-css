@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>はじめてのhtml</title>
+</head>
+<body>
+    <table border="1">
+        <tbody>
+            <tr>
+                <th colspan="2">名前</th>
+                <th rowspan="2">性別</th>
+            </tr>
+            <tr>
+                <th>漢字</th>
+                <th>かな</th>
+            </tr>
+            <tr>
+                <td>吉野</td>
+                <td>よしの</td>
+                <td>男</td>
+            </tr>
+            <tr>
+                <td>田中</td>
+                <td>たなか</td>
+                <td>男</td>
+            </tr>
+            <tr>
+                <td>金沢</td>
+                <td>かなざわ</td>
+                <td>男</td>
+            </tr>
+        </tbody>
+    </table> <br><br>
+
+<h1>トライアスロン応募フォーム</h1>
+<form action="#" method="post" enctype="multipart/form-data">
+    <label for="namefield">
+    名前：
+    </label>
+        <input id="namefield" type="text" name="name"><br>
+    パスワード：
+        <input type="password" name="pass"><br>
+    
+    性別：
+        <input type="radio" name="gender" value="male" checkd>男
+        <input type="radio" name="gender" value="female" check>女<br>
+    種目：
+        <input type="checkbox" name="triathlon" value="swim" check>水泳
+        <input type="checkbox" name="triathlon" value="bike" check>自転車
+        <input type="checkbox" name="triathlon" value="run" check>走る<br>
+    本人確認書類：
+        <input type="file" name="resume"><br>
+    <input type="hidden" name="employeeID" value="12345">
+    参加理由：
+        <br>
+        <textarea name="remarks" rows="5" cols="50">初期値</textarea><br>
+    得意種目：
+        <br>
+        <select name="advantage" multiple>
+            <option value="swim">水泳</option>
+            <option value="bike">自転車</option>
+            <option value="run">走る</option>
+        </select><br>
+    <br>
+    <button type="reset">
+    リセット
+    </button>
+    <button>
+    送信
+    </button>
+    <button type="button">
+    ただのボタン
+    </button>
+    
+    
+
+
+</form>
+
+</body>
+</html>
