@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+div#ID0001{
+    color: red;
+    font-size: 12pt;
+}
+
+div.student{
+    color:blue;
+    font-size: 11pt;
+}
+
+div#ID0004{
+    font-size: 8pt;
+}
+
+span.student{
+    color: aqua;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
